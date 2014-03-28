@@ -2,39 +2,223 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>microscope.js slides</title>
+		<title>microscope.js</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" href="./libs/css/reveal.min.css">
 		<link rel="stylesheet" href="./libs/css/theme/moon.css" id="theme">
+		<style type="text/css">
+			section{
+				background: rgba(0,0,0,.7);
+				-webkit-border-radius: 10px;
+				border-radius: 10px;
+				color: white;
+			}
+
+			section ul li{
+				color: white;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 
-				<section>
-					<h2>microscope.js</h2>
+				<section data-background="http://microscopejs.com/images/mcsp_bg.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>microscope.js</h2>
+						<p>"opiniated node.js web application generator"</p>
+					</section>
 				</section>
 
-				<section>
-					<h2>What is microscope.js ?</h2>
-					<p>
-				     microscope.js is an open source <a href="http://nodejs.org/">nodejs</a> <strong>MVC framework</strong> for <strong>productive</strong> web development. It is based on <a href="http://expressjs.com/">express.js</a> and uses several popular npm modules like <a href="http://sequelizejs.com/">sequelize.js</a> and <a href="http://passportjs.org/">passport.js</a>.
-					</p>
+
+				<section data-background="http://microscopejs.com/images/mcsp_bg.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Team</h2>
+					</section>
+
+					<section data-background="./images/visualstudio.jpg">
+						<h2>Benjamin Heintz</h2>
+						<br><br>
+						<p>
+							.NET / JavaScript developer at almerys
+						</p>
+						<br>
+						<p>
+							<a href="https://github.com/bhtz">https://github.com/bhtz</a>
+							<br>
+							<a href="https://twitter.com/benjaminHTZ">@benjaminHTZ</a>
+						</p>
+					</section>
+
+					<section data-background="./images/java.jpg">
+						<h2>Emeric Stophe</h2>
+						<br><br>
+						<p>
+							Java / Spring developer at almerys
+						</p>
+						<br>
+						<p>
+							<a href="https://github.com/cireme">https://github.com/cireme</a>
+							<br>
+							<a href="https://twitter.com/cireme63">@cireme63</a>
+						</p>
+					</section>
 				</section>
 
-				<section data-transition="zoom">
-					<h2>All in the box !</h2>
-					<p>	
-						microscope provided a number of tools for building modern web applications:
-						<a href="http://jquery.com/">jQuery</a>, <a href="http://angularjs.org/">AngularJS</a>, <a href="http://modernizr.com/">modernizr</a>, <a href="http://learnboost.github.io/stylus/">stylus CSS pre-processor</a>, <a href="http://codeseven.github.io/toastr/demo.html">toastr</a>, <a href="http://getbootstrap.com/">bootstrap</a>.
-					</p>
+				<section data-background="http://microscopejs.com/images/mcsp_bg.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Why ? What ?</h2>
+					</section>
+
+					<section>
+						<h2>Why ? What ?</h2>
+						<br><br>
+						<ul>
+							<li>Open source</li>
+							<li>Developer friendly</li>
+							<li>Node.js - JavaScript</li>
+						</ul>
+					</section>
 				</section>
 
-				<section>
-					<h2>Command Line Tool</h2>
-					<p>
-						microscope provided a <strong>command line interface</strong> to quickly build web application. You can run server, <strong>generate</strong> some models or controllers and <strong>scaffold</strong> <strong>REST API</strong>, <strong>CRUD controller</strong> or <strong>Data Access Layer</strong>.
-					</p>
+				<section data-background="http://microscopejs.com/images/mcsp_bg_empty_inquirer.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Command Line Interface</h2>
+					</section>
+
+					<section>
+						<h2>Scaffolding</h2>
+						
+						<img src="./images/scaffold.png" alt=""><br>
+
+						<ul>
+							<li>model</li>
+							<li>data access layer</li>
+							<li>crud controller</li>
+							<li>api rest</li>
+							<li>web application</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Database</h2>
+						<ul>
+							<li>database synchronization</li>
+							<li>database drop</li>
+							<br>
+							<br>
+							<li>MySQL, PostgreSQL, MariaDB, SQLite</li>
+						</ul>
+						<br><br>
+						<img src="./images/database.png" style="width:300px;" alt="">
+					</section>
+
+					<section>
+						<h2>Inquirer tool</h2>
+						<img src="./images/tool.png" alt="">
+						<p>
+							Support all command line interface features with inquirer prompts.
+						</p>
+					</section>
+				</section>
+
+				<section data-background="http://microscopejs.com/images/mcsp_bg_empty_logos.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Web framework</h2>
+					</section>
+
+					<section>
+						<h2>Project</h2>
+						<img src="./images/archi.png" style="height:590px;" alt="">
+					</section>
+
+					<section>
+						<h2>Components</h2>
+						<br><br>
+						<ul>
+							<li>express.js based</li>
+							<li>sequelize ORM</li>
+							<li>passport.js authentication & providers</li>
+							<li>bower frontend package manager</li>
+							<li>stylus css preprocessor</li>
+							<li>bootstrap</li>
+							<li>grunt task runner</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Grunt tasks</h2>
+						<br><br>
+						<ul>
+							<li>debug runtime</li>
+							<li>stylus compile & watcher</li>
+							<li>JavaScript compile & watcher</li>
+							<li>nodemon server reload</li>
+						</ul>
+					</section>
+				</section>
+
+				<section data-background="./images/documentation.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Documentation</h2>
+						<p>
+							<a href="http://microscopejs.com/">http://microscopejs.com/</a>
+						</p>
+					</section>
+				</section>
+
+				<section data-background="http://microscopejs.com/images/mcsp_bg.png">
+					<section>
+						<br><br><br><br><br><br>
+						<h2>Future</h2>
+					</section>
+
+					<section>
+						<h2>Features</h2>
+						<br><br>
+						<ul>
+							<li>database first approch</li>
+							<li>realtime websocket scaffolding</li>
+
+							<br><br>
+
+							<li>externalize microscopeKernel in npm package</li>
+							<li>refactore microscope-cli into generic tool</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Try it and help us <!doctype html>
+						<html lang="en">
+						<head>
+							<meta charset="UTF-8">
+							<title>Document</title>
+						</head>
+						<body>
+							
+						</body>
+						</html></h2>
+						<br><br>
+						<ul>
+							<li><a href="https://github.com/bhtz/microscopejs">github repository</a></li>
+							<li><a href="https://trello.com/b/wuNvfCiH/microscopejs">trello board</a></li>
+							<li><a href="http://microscopejs.com">microscopejs.com</a></li>
+						</ul>
+					</section>
+				</section>
+
+				<section data-background="http://microscopejs.com/images/mcsp_bg.png">
+					<section>
+						<br><br><br>
+						<h2>Questions before demo ?</h2>
+						<img src="./images/riddler.jpg" style="width:350px;">
+					</section>
 				</section>
 
 			</div>
@@ -43,11 +227,9 @@
 		<script src="./libs/js/head.min.js"></script>
 		<script src="./libs/js/reveal.min.js"></script>
 		<script>
-
 			Reveal.initialize({
-				transition: 'linear'
+				transition: 'cube'
 			});
-
 		</script>
 
 	</body>

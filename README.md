@@ -1,4 +1,1 @@
-microscope-slides
-=================
-
-reveals slides for microscopejs
+reveals presentation
